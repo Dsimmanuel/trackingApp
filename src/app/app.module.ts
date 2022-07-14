@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
+import { ComponentComponent } from './component/component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    ComponentComponent
   ],
   imports: [
     BrowserModule,
